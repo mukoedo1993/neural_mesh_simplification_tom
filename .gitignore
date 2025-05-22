@@ -1,8 +1,8 @@
 .DS_Store
 data/**/*.ply
-#data/**/*.obj
+#data/**/*.obj #Uncomment it if you want to put your obj files.
 data/**/*.stl
-examples/data
+# examples/data ##Uncomment it if you want to put your obj files.
 checkpoints
 
 file_structure.txt
