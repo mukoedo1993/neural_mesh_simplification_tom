@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-mesh-simplification"
+version = "0.1.0"
+description = "A neural network-based approach to mesh simplification"
+authors = [{ name = "Martin Normark", email = "m@martinnormark.com" }, { name = "Gennaro Frazzingaro", email = "gennaro@thinair.ar" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "torch",
+    "trimesh",
+    "scipy",
+    "matplotlib",
+    "tqdm"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["neural_mesh_simplification*"]
+namespaces = false

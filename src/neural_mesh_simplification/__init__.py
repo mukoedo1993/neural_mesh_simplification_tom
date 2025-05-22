@@ -1,0 +1,1 @@
+from .api.neural_mesh_simplifier import NeuralMeshSimplifier
