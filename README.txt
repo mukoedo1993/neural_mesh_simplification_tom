@@ -22,4 +22,7 @@ pip install -e .
 ```
 
 Step 5:
+```bash
+python examples/example.py
+```
 Now, you have processed data in examples/data/processed folder.
