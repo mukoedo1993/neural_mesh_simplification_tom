@@ -26,3 +26,16 @@ Step 5:
 python examples/example.py
 ```
 Now, you have processed data in examples/data/processed folder.
+
+OR, ALTERNATIVELY: skip step 5:
+Step 6:
+```
+#download data:
+python scripts/download_test_meshes.py
+```
+
+Step 7: 
+```
+#Preprocess data:
+python scripts/preprocess_data.py  #(Ongoing...) Very slow for the dataset given by the step 6 using local machine
+```
